@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    overflow-x: hidden;
+  }
+}
+
+@keyframes catTailSwish {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(14deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  75% {
+    transform: rotate(18deg);
+  }
+}
+
+@keyframes catBlink {
+  0%, 90%, 100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes catEarTwitch {
+  0%, 85%, 100% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(-6deg);
+  }
+  95% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes floatBubble {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-cat-tail {
+  transform-origin: 20px 85px;
+  animation: catTailSwish 4s ease-in-out infinite;
+}
+
+.animate-cat-blink {
+  transform-origin: center;
+  animation: catBlink 4.5s ease-in-out infinite;
+}
+
+.animate-cat-ear {
+  transform-origin: bottom center;
+  animation: catEarTwitch 7s ease-in-out infinite;
+}
+
+.animate-bubble-float {
+  animation: floatBubble 2.5s ease-in-out infinite;
+}

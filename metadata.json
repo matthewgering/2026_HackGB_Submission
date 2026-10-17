@@ -1,0 +1,6 @@
+{
+  "name": "PhishTrainer",
+  "description": "Interactive cybersecurity training simulator teaching users how to identify phishing emails in a realistic inbox environment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
