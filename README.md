@@ -3,7 +3,7 @@ PhishTrainer 🐈‍⬛🔒
 PhishTrainer is an interactive cybersecurity awareness training application that helps users learn how to identify phishing emails through a realistic email inbox simulation.
 
 Live Demo
-👉 Launch PhishTrainer
+👉 Launch PhishTrainer: https://ai.studio/apps/0378a04e-c862-4974-adad-056727b2075b
 
 Features:
 Outlook-inspired inbox experience
